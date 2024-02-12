@@ -1,11 +1,5 @@
 package main
 
-import (
-	"fmt"
-
-	"frontendmasters.com/go/io/data"
-)
-
 /*
 Built-in Data Types
 - string
@@ -42,17 +36,19 @@ Collections
 var name = "Frontend Masters"
 // init can be used to initial things when the app starts
 
-func init() {
-	fmt.Println("A")
-}
-func init() {
-	fmt.Println("B")
-}
+// func init() {
+// 	fmt.Println("A")
+// }
+// func init() {
+// 	fmt.Println("B")
+// }
 
 func main() {
 	// Function Scoped Variables
-	fmt.Println(data.MaxSpeed) // MaxSpeed has to be Titles case so it can be access
-	PrintData()
+	// fmt.Println(data.MaxSpeed) // MaxSpeed has to be Titles case so it can be access
+	// PrintData()
+
+	print(Area(5, 6))
 
 	// := sets the var for us. Types are implicit so we do not have to declare them.
 	// message := "Hello from Go"
